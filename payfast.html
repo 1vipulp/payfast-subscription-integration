@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Payfast Subscription R&D</title>
+</head>
+
+<body>
+  <form action="https://sandbox.payfast.co.za/eng/process" method="POST">
+
+    <input type="text" name="amount" value="5">
+    <input type="hidden" name="cancel_url" value="https://712f55df7ff5.ngrok.io/cancel-url" />
+    <input type="hidden" name="cycles" value="1" />
+    <input type="hidden" name="frequency" value="3" />
+    <input type="text" name="item_name" value="testing">
+    <input type="hidden" name="merchant_id" value="10014512" />
+    <input type="hidden" name="merchant_key" value="a2gvhb47dayfm" />
+    <input type="hidden" name="name_first" value="Vipul" />
+    <input type="hidden" name="name_last" value="Panchal" />
+    <input type="hidden" name="notify_url" value="https://712f55df7ff5.ngrok.io/notify-url" />
+    <input type="hidden" name="return_url" value="https://712f55df7ff5.ngrok.io/success-url" />
+    <input type="hidden" name="subscription_type" value="1" />
+    <input type="submit" value="Submit Now" />
+
+  </form>
+</body>
+
+</html>
